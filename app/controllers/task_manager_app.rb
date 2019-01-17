@@ -10,4 +10,8 @@ get '/tasks' do
   erb :index
 end
 
+get '/tasks/new' do
+  erb :new
+end
+
 end
